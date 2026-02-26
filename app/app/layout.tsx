@@ -28,10 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header style={{padding:"12px" , background:"#eee", textAlign:"center"}}>
-          <h2 style={{color:"green"}}>USERS PAGE</h2>
-        </header>
-        <section>  <Link href="/about" className="text-white py-2 px-2 m-9 bg-blue-400 rounded-lg">AboutUs</Link></section>
+     
+          
         <main >
               {children}
         </main>

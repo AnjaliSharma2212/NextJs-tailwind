@@ -3,6 +3,7 @@ import UsersClient from "./UserClient";
 
 
 
+
 export const metadata: Metadata = {
   title: "Users",
   description: "List of users fetched on the server",
@@ -21,6 +22,7 @@ export default async function UsersPage() {
   return (
     <>
       <UsersClient users={users} />
+      
     </>
   );
 }
