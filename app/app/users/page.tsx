@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import UsersClient from "./UserClient";
 
 
-
-
 export const metadata: Metadata = {
   title: "Users",
   description: "List of users fetched on the server",

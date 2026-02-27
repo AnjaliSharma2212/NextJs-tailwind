@@ -1,3 +1,4 @@
+import DashBoardCard from "./components/DashBoard.card";
 import Header from "./components/Header";
 import ProductCard from "./components/ProductPage";
 import UsersPage from "./users/page";
@@ -41,6 +42,10 @@ export default function Home() {
           </button>
         </div>
       </section>
+      <div className="min-h-screen bg-gray-50 p-10 grid md:grid-cols-2 gap-6">
+  <DashBoardCard />
+ 
+</div>
     <h2>Dashboard</h2>
     <UsersPage/>
       <main className="p-6">
