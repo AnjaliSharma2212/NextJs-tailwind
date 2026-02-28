@@ -23,6 +23,7 @@ export default function ProductCard({ product }: Props) {
       <p className="text-green-600 font-bold mt-3">
         ₹ {product.price}
       </p>
+      
     </div>
   );
 }

@@ -1,11 +1,11 @@
+'use client'
 import DashBoardCard from "./components/DashBoard.card";
+import SimpleBottomNavigation from "./components/Footer";
 import Header from "./components/Header";
 import ProductCard from "./components/ProductPage";
 import UsersPage from "./users/page";
 
-export const metadata={
-  title: "Homepage"
-}
+
 
 const products = [
   {
@@ -59,6 +59,7 @@ export default function Home() {
         ))}
       </div>
     </main>
+    <SimpleBottomNavigation/>
      </>
   );
 }
